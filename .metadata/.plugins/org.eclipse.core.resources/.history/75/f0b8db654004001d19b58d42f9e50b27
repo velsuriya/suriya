@@ -1,0 +1,27 @@
+package com.java;
+
+public class CanaraBank extends AxisBank {
+
+	@Override
+	public void saving() {
+		// TODO Auto-generated method stub
+		System.out.println("12%");
+	}
+
+	@Override
+	public void deposite() {
+		// TODO Auto-generated method stub
+		System.out.println("66%");
+	}
+
+	public static void main(String[] args) {
+		
+		CanaraBank a = new CanaraBank();
+		a.saving();
+		a.deposite();
+		a.currentAmount();
+	}
+
+	
+
+}

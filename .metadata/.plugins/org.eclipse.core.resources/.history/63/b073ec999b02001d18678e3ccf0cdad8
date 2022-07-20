@@ -1,0 +1,22 @@
+package com.java;
+
+public class Prcatice01 {
+	
+    public int a; // instance variable
+    
+    private void method() {
+		// TODO Auto-generated method stub
+
+    	a=200;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Prcatice01 method = new Prcatice01();
+		method=null;
+		//System.out.println(method.a);
+		
+		
+		}
+
+}

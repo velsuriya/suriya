@@ -1,0 +1,22 @@
+package com.java;
+
+public class Method2 extends Method1 {
+	
+	@Override
+	public void savings() {
+		// TODO Auto-generated method stub
+		super.savings();
+	}
+	
+	@Override
+	public void deposite() {
+		// TODO Auto-generated method stub
+		super.deposite();
+	}
+	
+	
+	
+	
+	
+
+}

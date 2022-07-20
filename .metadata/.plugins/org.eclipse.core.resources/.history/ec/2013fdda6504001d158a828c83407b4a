@@ -1,0 +1,18 @@
+package com.java;
+
+public abstract class AxisBank {
+	
+	public abstract void saving();
+	public abstract void deposite();
+	
+	// non abstract
+	public void currentAmount() {
+		
+		System.out.println("22%");
+	}
+	
+	
+	
+	
+
+}

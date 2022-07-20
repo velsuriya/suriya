@@ -1,0 +1,31 @@
+package com.java;
+
+public class CanaraBank extends AxisBank {
+
+	@Override
+	public void saving() {
+		System.out.println("1");
+	}
+
+	@Override
+	public void deposite() {
+System.out.println("122");		
+	}
+
+	public static void main(String[] args) {
+		
+		CanaraBank a = new CanaraBank();
+		
+		a.saving();
+		a.deposite();
+		a.currentAmount();
+		
+		
+	}
+
+
+	
+
+	
+
+}

@@ -1,0 +1,13 @@
+package com.java;
+
+public interface  CanaraBank implements AxisBank   {
+	
+	public static void main(String[] args) {
+		
+		
+		}
+
+    
+	}
+	
+	
